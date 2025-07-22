@@ -11,9 +11,10 @@
       "components": {
         "minecraft:item_name": "Diamond Coin",
         "minecraft:enchantment_glint_override": true,
-        "minecraft:max_stack_size": 50
+        "minecraft:max_stack_size": 50,
+        "minecraft:item_model": "minecraft:heart_of_the_sea"
       },
       "count": 5,
-      "id": "minecraft:heart_of_the_sea"
+      "id": "minecraft:command_block_minecart"
     }
   }
