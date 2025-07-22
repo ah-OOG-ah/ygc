@@ -3,11 +3,11 @@
     "category": "misc",
     "group": "harness",
     "ingredients": [
-      "minecraft:heart_of_the_sea",
-      "minecraft:heart_of_the_sea",
-      "minecraft:heart_of_the_sea",
-      "minecraft:heart_of_the_sea",
-      "minecraft:heart_of_the_sea"
+      "minecraft:command_block_minecart",
+      "minecraft:command_block_minecart",
+      "minecraft:command_block_minecart",
+      "minecraft:command_block_minecart",
+      "minecraft:command_block_minecart"
     ],
     "result": {
       "count": 1,
