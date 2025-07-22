@@ -6,6 +6,8 @@
     "id": "minecraft:netherite_chestplate",
     "components": {
       "minecraft:glider": {},
+      "minecraft:attribute_modifiers": [],
+      "minecraft:enchantable": false
       "minecraft:item_name": "Winged Chestplate",
       "minecraft:lore": [
         {
