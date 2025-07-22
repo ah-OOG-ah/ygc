@@ -12,13 +12,13 @@ scoreboard players reset @a[scores={thunder=1..}] thunder
 
 execute as @e[type=item,nbt={Item:{id:"minecraft:fermented_spider_eye",components:{"minecraft:item_name":"Dried Fermented Spider Eye"}}}] at @s if entity @e[distance=..0.3,type=item,nbt={Item:{id:"minecraft:potion",components:{"minecraft:potion_contents":{potion:"minecraft:awkward"}}}}] run particle smoke ~ ~ ~ 0 0 0 1 10 force
 execute as @e[type=item,nbt={Item:{id:"minecraft:fermented_spider_eye",components:{"minecraft:item_name":"Dried Fermented Spider Eye"}}}] at @s if entity @e[distance=..0.3,type=item,nbt={Item:{id:"minecraft:potion",components:{"minecraft:potion_contents":{potion:"minecraft:awkward"}}}}] run playsound entity.zombie_villager.cure
-execute as @e[type=item,nbt={Item:{id:"minecraft:fermented_spider_eye",components:{"minecraft:item_name":"Dried Fermented Spider Eye"}}}] at @s if entity @e[distance=..0.3,type=item,nbt={Item:{id:"minecraft:potion",components:{"minecraft:potion_contents":{potion:"minecraft:awkward"}}}}] run summon item ~ ~0.5 ~ {Item:{id:"sugar",components:{item_name:"Drugs",use_cooldown:{cooldown_group:"drugs",seconds:590},consumable:{on_consume_effects:[{type:"apply_effects",effects:[{id:"saturation",duration:12000}]},{type:"remove_effects",effects:["slowness","mining_fatigue","hunger"]}]}}}}
+execute as @e[type=item,nbt={Item:{id:"minecraft:fermented_spider_eye",components:{"minecraft:item_name":"Dried Fermented Spider Eye"}}}] at @s if entity @e[distance=..0.3,type=item,nbt={Item:{id:"minecraft:potion",components:{"minecraft:potion_contents":{potion:"minecraft:awkward"}}}}] run summon item ~ ~0.5 ~ {Item:{id:"sugar",components:{item_name:"Drugs",use_cooldown:{cooldown_group:"drugs",seconds:590},consumable:{on_consume_effects:[{type:"apply_effects",effects:[{id:"saturation",duration:12000},{id:"unluck",duration:12000}]},{type:"remove_effects",effects:["slowness","mining_fatigue","hunger"]}]}}}}
 execute as @e[type=item,nbt={Item:{id:"minecraft:fermented_spider_eye",components:{"minecraft:item_name":"Dried Fermented Spider Eye"}}}] at @s if entity @e[distance=..0.3,type=item,nbt={Item:{id:"minecraft:potion",components:{"minecraft:potion_contents":{potion:"minecraft:awkward"}}}}] run kill @e[distance=..0.3,type=item]
 
 
-execute as @a[nbt={active_effects:[{id:"minecraft:saturation",duration:1}]}] run effect give @s slowness 3600 2
-execute as @a[nbt={active_effects:[{id:"minecraft:saturation",duration:1}]}] run effect give @s mining_fatigue 3600 0
-execute as @a[nbt={active_effects:[{id:"minecraft:saturation",duration:1}]}] run effect give @s hunger 3600 0
+execute as @a[nbt={active_effects:[{id:"minecraft:unluck",duration:1}]}] run effect give @s slowness 3600 2
+execute as @a[nbt={active_effects:[{id:"minecraft:unluck",duration:1}]}] run effect give @s mining_fatigue 3600 0
+execute as @a[nbt={active_effects:[{id:"minecraft:unluck",duration:1}]}] run effect give @s hunger 3600 0
 
 execute as @e[type=creeper] on vehicle if entity @s[nbt={OnGround:0b}] on passengers run tag @s add bomb
 execute as @e[type=creeper] on vehicle if entity @s[nbt={OnGround:0b}] on passengers run data merge entity @s {powered:true}
