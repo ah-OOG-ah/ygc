@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "ygc",
+    "pattern": [
+      "idi",
+      "sps",
+      "rtr"
+    ],
+    "key": {
+      "i": "minecraft:iron_ingot",
+      "d": "minecraft:pointed_dripstone",
+      "s": "#minecraft:stone_crafting_materials",
+      "p": "piston",
+      "r": "minecraft:redstone",
+      "t": "minecraft:redstone_torch"
+    },
+    "result": {
+      "id": "silverfish_spawn_egg",
+      "components": {
+        "item_model":"minecraft:dispenser",
+        "item_name":"Block Breaker",
+        "entity_data":{
+            "id":"minecraft:marker",
+            "Tags":["block_breaker","spawned"]
+        }
+      }
+    }
+  }

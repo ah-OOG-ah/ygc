@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "misc",
+  "ingredient": "minecraft:fermented_spider_eye",
+  "result": {
+    "id": "minecraft:fermented_spider_eye",
+    "components": {
+      "minecraft:item_name": "Dried Fermented Spider Eye"
+    }
+  },
+  "cookingtime": 1200
+}

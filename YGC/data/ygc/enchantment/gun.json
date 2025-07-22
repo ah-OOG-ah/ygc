@@ -1,0 +1,44 @@
+{
+    "description": "Gun",
+    "exclusive_set": "#minecraft:exclusive_set/crossbow",
+    "supported_items": "#minecraft:enchantable/crossbow",
+    "primary_items": "#minecraft:enchantable/crossbow",
+    "weight": 10,
+    "max_level": 1,
+    "min_cost": {
+      "base": 10,
+      "per_level_above_first": 0
+    },
+    "max_cost": {
+      "base": 10,
+      "per_level_above_first": 0
+    },
+    "anvil_cost": 5,
+    "slots": [
+      "hand"
+    ],
+    "effects": {
+      "minecraft:crossbow_charging_sounds": [
+        {
+          "end": "minecraft:block.iron_trapdoor.close",
+          "start": "minecraft:block.iron_trapdoor.open"
+        },
+        {
+          "end": "minecraft:block.iron_trapdoor.close",
+          "start": "minecraft:block.iron_trapdoor.open"
+        },
+        {
+          "end": "minecraft:block.iron_trapdoor.close",
+          "start": "minecraft:block.metal_pressure_plate.click_on"
+        }
+      ],  
+      "minecraft:projectile_spawned": [
+        {
+          "effect": {
+            "type": "minecraft:run_function",
+            "function": "ygc:raycast"
+          }
+        }
+      ]
+    }
+  }

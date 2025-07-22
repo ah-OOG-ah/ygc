@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_transmute",
+  "input": "minecraft:netherite_chestplate",
+  "material": "minecraft:elytra",
+  "result": {
+    "id": "minecraft:netherite_chestplate",
+    "components": {
+      "minecraft:glider": {},
+      "minecraft:item_name": "Winged Chestplate",
+      "minecraft:lore": [
+        {
+          "text": "Glides",
+          "color": "gray",
+          "italic": false
+        }
+      ]
+    }
+  }
+}

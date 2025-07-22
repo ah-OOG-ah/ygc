@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "group": "harness",
+    "ingredients": [
+      [
+        "minecraft:diamond"
+      ]
+    ],
+    "result": {
+      "components": {
+        "minecraft:item_name": "Diamond Coin",
+        "minecraft:enchantment_glint_override": true,
+        "minecraft:max_stack_size": 50
+      },
+      "count": 5,
+      "id": "minecraft:heart_of_the_sea"
+    }
+  }

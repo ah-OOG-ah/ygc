@@ -1,0 +1,33 @@
+{
+  "primary_items": "#minecraft:harnesses",
+  "anvil_cost": 3,
+  "description": "Fast Flyer",
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "attribute": "minecraft:flying_speed",
+        "id": "fast_flyer",
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 0.01,
+          "per_level_above_first": 0.01
+        },
+        "operation": "add_value"
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 12,
+    "per_level_above_first": 11
+  },
+  "max_level": 3,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 11
+  },
+  "slots": [
+    "body"
+  ],
+  "supported_items": "#minecraft:harnesses",
+  "weight": 15
+}

@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "pdp",
+      "dhd",
+      "pdp"
+    ],
+    "key": {
+      "p": "prismarine_shard",
+      "d": "diamond",
+      "h": "heart_of_the_sea"
+    },
+    "result": {
+      "id": "heart_of_the_sea",
+      "components": {
+        "consumable":{
+            "animation":"spear",
+            "consume_seconds":10,
+            "has_consume_particles":false,
+            "sound":"minecraft:weather.rain.above",
+            "on_consume_effects":[{
+                "sound":"minecraft:entity.lightning_bolt.thunder",
+                "type":"play_sound"
+            }]
+        },
+        "item_name": "Thunder Charm"
+      }
+    }
+  }

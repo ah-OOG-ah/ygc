@@ -1,0 +1,11 @@
+{
+    "pack": {
+        "pack_format": 81,
+        "description": "why hello there"
+    },
+    "features": {
+        "enabled": [
+            "minecraft:minecart_improvements"
+        ]
+    }
+}

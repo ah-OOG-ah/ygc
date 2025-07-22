@@ -1,0 +1,1 @@
+$execute as @e[distance=..$(level),type=item] run ride @s mount @n[type=trident]

@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "group": "harness",
+    "ingredients": [
+      "minecraft:heart_of_the_sea",
+      "minecraft:heart_of_the_sea",
+      "minecraft:heart_of_the_sea",
+      "minecraft:heart_of_the_sea",
+      "minecraft:heart_of_the_sea"
+    ],
+    "result": {
+      "count": 1,
+      "id": "diamond"
+    }
+  }
