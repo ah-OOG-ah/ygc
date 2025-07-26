@@ -6,12 +6,33 @@
     "id": "minecraft:netherite_chestplate",
     "components": {
       "minecraft:glider": {},
-      "minecraft:attribute_modifiers": [],
-      "minecraft:enchantable": false
+      "minecraft:attribute_modifiers": [
+        {
+          "type": "armor",
+          "slot": "chest",
+          "id": "minecraft:armor.chestplate",
+          "amount": 0,
+          "operation": "add_value"
+        },
+        {
+          "type": "armor_toughness",
+          "slot": "chest",
+          "id": "minecraft:armor.chestplate",
+          "amount": 0,
+          "operation": "add_value"
+        },
+        {
+          "type": "knockback_resistance",
+          "slot": "chest",
+          "id": "minecraft:armor.chestplate",
+          "amount": 0,
+          "operation": "add_value"
+        }
+      ],
       "minecraft:item_name": "Winged Chestplate",
       "minecraft:lore": [
         {
-          "text": "Glides",
+          "text": "Glides like Icarus. The sun can't hurt you, but arrows might...",
           "color": "gray",
           "italic": false
         }
